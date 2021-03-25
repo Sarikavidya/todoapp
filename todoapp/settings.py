@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '&e%mmqmfe=w#zoxwo4(x@-yq#m!2oa8x&&n7#i-&l-e_!x(upi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','todolistpydj.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','todopydj.herokuapp.com']
 
 
 # Application definition
